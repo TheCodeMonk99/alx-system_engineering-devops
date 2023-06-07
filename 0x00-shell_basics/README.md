@@ -1,0 +1,1 @@
+prints command for pwd

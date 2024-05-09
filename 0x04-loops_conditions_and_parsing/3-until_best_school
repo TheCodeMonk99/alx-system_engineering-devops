@@ -2,7 +2,7 @@
 # uses until to print Best School
 
 ter=0
-until [ $ter -gt 10 ]; do
+until [ $ter -gt 9 ]; do
 	echo "Best School"
 	(( ter++ ))
 done

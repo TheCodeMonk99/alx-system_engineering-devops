@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# uses until to print Best School
+
+ter=0
+until [ $ter -gt 10 ]; do
+	echo "Best School"
+	(( ter++ ))
+done

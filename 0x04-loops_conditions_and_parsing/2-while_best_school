@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Uses while to print Best School ten times
+
+index=0
+while [ $index -lt 10 ]; do
+	echo "Best School"
+	(( index++))
+done

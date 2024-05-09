@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Print a string 10 times, hi on 9
+
+ter=0
+while [ $ter -lt 10 ]; do
+	echo "Best School"
+	if (( ter == 8)); then
+		echo "Hi"
+	fi
+	(( ter++ ))
+done
